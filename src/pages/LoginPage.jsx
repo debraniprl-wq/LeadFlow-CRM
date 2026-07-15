@@ -165,7 +165,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-center text-xs text-gray-400 mt-4">
-          LeadFlow CRM © 2025 — Secure Firebase Authentication
+          LeadFlow CRM © 2026 — Secure Firebase Authentication
         </p>
       </div>
     </div>

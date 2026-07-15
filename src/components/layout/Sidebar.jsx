@@ -84,7 +84,7 @@ export default function Sidebar({ isOpen, onClose }) {
         {/* Footer */}
         <div className="px-6 py-4 border-t border-gray-800">
           <p className="text-xs text-gray-500">LeadFlow CRM v1.0</p>
-          <p className="text-xs text-gray-600 mt-0.5">© 2025 All rights reserved</p>
+          <p className="text-xs text-gray-600 mt-0.5">© 2026 All rights reserved</p>
         </div>
       </aside>
     </>
