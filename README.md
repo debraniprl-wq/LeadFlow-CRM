@@ -1,87 +1,121 @@
-# LeadFlow CRM
+# 👥 LeadFlow CRM
 
-A fully functional **Client Lead Management System (Mini CRM)** built with:
-- **React 18 + Vite** — Frontend framework
-- **Tailwind CSS v3** — Styling
-- **Firebase Authentication** — Email/Password login
-- **Cloud Firestore** — NoSQL database for leads
+![LeadFlow CRM](leadflow-crm-home.png)
+
+A modern Full-Stack Mini CRM application built with React and Firebase that helps businesses manage client leads, track lead status, organize follow-ups, and improve sales workflow through a clean and responsive dashboard.
 
 ---
 
-## 🔥 Firebase Setup (Required First)
+## 🚀 Live Demo
 
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project or use an existing one
-3. **Enable Authentication:**
-   - Authentication → Sign-in method → Email/Password → Enable
-4. **Enable Firestore:**
-   - Firestore Database → Create database → Start in **test mode**
-5. **Get your config:**
-   - Project Settings → Your apps → Web App → SDK setup
-6. **Update `src/firebase/config.js`** with your actual credentials:
+🔗 https://future-fs-02-mu-bice.vercel.app/login
 
-```js
-const firebaseConfig = {
-  apiKey: "your-actual-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abc123"
-};
+---
+
+## ✨ Features
+
+- 👥 Client Lead Management
+- 📊 Dashboard Overview
+- 📌 Lead Status Tracking
+- 📅 Follow-up Management
+- 🔐 Firebase Authentication
+- ⚡ Fast React + Vite Application
+- 📱 Responsive User Interface
+- 🎯 Modern CRM Workflow
+
+---
+
+## 🛠️ Tech Stack
+
+- React 18
+- Vite
+- Firebase
+- React Router DOM
+- Tailwind CSS
+- Lucide React
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```text
+LeadFlow-CRM/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
-7. **Create a user** in Firebase Console:
-   - Authentication → Users → Add User → Enter email + password
-
 ---
 
-## 🚀 Running the Project
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/debraniprl-wq/LeadFlow-CRM.git
+```
+
+### Install Dependencies
 
 ```bash
 npm install
+```
+
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-Open: http://localhost:5173
+### Build for Production
 
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── layout/       # Navbar, Sidebar, Layout
-│   ├── leads/        # LeadForm, StatusBadge
-│   └── ui/           # StatCard, ConfirmModal, LoadingSpinner
-├── context/          # AuthContext (Firebase auth state)
-├── firebase/         # config.js + firestore.js (CRUD)
-├── hooks/            # useLeads.js
-└── pages/            # Login, Dashboard, Leads, AddLead, LeadDetail
+```bash
+npm run build
 ```
 
 ---
 
-## 📋 Features
+## 🎯 Use Case
 
-| Feature | Status |
-|---|---|
-| Firebase Login / Logout | ✅ |
-| Add Lead (Firestore) | ✅ |
-| Edit Lead | ✅ |
-| Delete Lead (with confirm) | ✅ |
-| View Lead Details | ✅ |
-| Search Leads | ✅ |
-| Filter by Status | ✅ |
-| Change Status Instantly | ✅ |
-| Add / Edit Notes | ✅ |
-| Dashboard Stats | ✅ |
-| Responsive Design | ✅ |
-| Sortable Table | ✅ |
+LeadFlow CRM enables businesses to:
+
+- Store and manage client leads
+- Track lead progress through different stages
+- Organize follow-ups efficiently
+- Improve customer relationship management
+- Monitor sales workflow from a single dashboard
 
 ---
 
-## 🔒 Firestore Security Rules
+## 🚀 Future Improvements
 
-Apply the rules from `firestore.rules` in your Firebase Console for production security.
+- 📊 Advanced Analytics Dashboard
+- 📧 Email & SMS Notifications
+- 📅 Calendar Integration
+- 🤖 AI-powered Lead Scoring
+- 📈 Sales Performance Reports
+- 👥 Team Collaboration Features
+- 🌙 Dark Mode
+
+---
+
+## 👩‍💻 Author
+
+**Agnimitra Dey**
+
+GitHub: https://github.com/debraniprl-wq
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
